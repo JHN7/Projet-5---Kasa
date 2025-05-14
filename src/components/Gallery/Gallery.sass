@@ -1,0 +1,25 @@
+.gallery-wrapper
+    width: 100%
+    background-color: #F6F6F6
+    border-radius: 1rem
+    padding: 3rem 1rem
+    display: flex
+    justify-content: center
+    margin-bottom: 2rem
+
+.gallery-container
+    width: 100%
+    max-width: 1240px
+
+.gallery
+    display: grid
+    grid-template-columns: repeat(3,1fr)
+    gap: 1rem
+    justify-items: center
+
+@media (max-width: 375px)
+    .gallery
+        display: grid
+        grid-template-columns: 1fr
+    .gallery-wrapper
+        padding: 0
