@@ -1,4 +1,3 @@
-import React from 'react';
 import "./router.sass"
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import APropos from './pages/A-propos/A-Propos';
