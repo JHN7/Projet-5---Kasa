@@ -1,4 +1,4 @@
-import "./router.sass";
+import "./App.sass";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import APropos from "./pages/A-propos/A-Propos";
 import Error from "./components/Error/Error";
