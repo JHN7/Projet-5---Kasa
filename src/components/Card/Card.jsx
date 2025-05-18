@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import './Card.sass'
 
-function Card({ title, cover }) {
+function Card({ id, title, cover }) {
     return (
-        <div className="card" style={{ backgroundImage: `url("${cover}")` }}>
+        <Link to={`/logements/${id}`} className="card" style={{ backgroundImage: `url("${cover}")` }}>
             <div className="card-overlay">
                 <h2 className="card-title">{title}</h2>
                 </div>
-      </div>
+      </Link>
     );
   }
   

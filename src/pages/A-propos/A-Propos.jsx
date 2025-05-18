@@ -1,4 +1,4 @@
-import "./A-propos.sass";
+import './A-Propos.sass'
 import Banner from "../../components/Banner/Banner";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import AProposBanner from "../../assets/Banniere-A-Propos.jpg";
