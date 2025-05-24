@@ -1,19 +1,25 @@
+@use '../utils/variables' as *
+    
 .error-page
     text-align: center
     padding: 100px 20px
 
 .error-title
-    font-size: 5rem
-    color: #ff6060
-    margin-bottom: 20px
+    font-size: 13rem
+    color: $primary-color
+    margin-bottom: 60px
 
 .error-subtitle
     font-size: 24px
-    color: #ff6060
-    margin-bottom: 30px
+    color: $primary-color
+    margin-bottom: 60px
 
 .error-link
     font-size: 18px
-    color: #ff6060
+    color: black
     text-decoration: underline
     cursor: pointer
+
+@media(max-width: 768px  )
+    .error-title
+        font-size: 5rem

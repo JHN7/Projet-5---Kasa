@@ -13,7 +13,7 @@
     gap: clamp(1rem, 2vw, 2.5rem)
     justify-items: center
 
-@media (max-width: 1060px)
+@media (max-width: 1060px) and (min-width: 769px)
     .gallery
         display: grid
         grid-template-columns: repeat(2,1fr)
@@ -24,6 +24,13 @@
     .gallery
         display: grid
         grid-template-columns: repeat(1,1fr)
+        align-items: center
+        gap: 20px
+        width: 100%
+        align-items: stretch
+        box-sizing: border-box
     .gallery-wrapper
-        padding: 1rem 1rem
+        padding: 0
+        margin: 20px 0
+        width: 100%
         background-color: white
