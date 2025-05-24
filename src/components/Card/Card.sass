@@ -1,26 +1,26 @@
 .card
-    position: relative
-    width: 340px
-    height: 340px
-    background-size: cover
-    background-position: center
-    border-radius: 10px
-    overflow: hidden
-    display: flex
-    align-items: flex-end
-    color: white
-    cursor: pointer
-    transition: transform 0.3s ease
+  position: relative
+  width: 340px
+  height: 340px
+  background-size: cover
+  background-position: center
+  border-radius: 10px
+  overflow: hidden
+  display: flex
+  align-items: flex-end
+  color: white
+  cursor: pointer
+  transition: transform 0.3s ease
 
-.card:hover
+  &:hover
     transform: scale(1.02)
 
-.card-title
+  &-title
     padding: 10px 15px
     border-radius: 5px
     font-size: 18px
 
-.card-overlay
+  &-overlay
     position: absolute
     bottom: 0
     left: 0
@@ -31,11 +31,6 @@
     align-items: flex-end
     justify-content: flex-start
     border-radius: 10px
+
     h2
-        color: white
-
-@media (max-width: 1060px) 
-    .card
-        width: 335px
-        height: 255px
-
+      color: white

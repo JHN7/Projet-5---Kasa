@@ -1,12 +1,12 @@
 @use '../utils/variables' as *
-    
-.host
-    display: flex
-    align-items: center
-    justify-content: flex-end
-    gap: 10px
 
-.host-name
+.host
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  gap: 10px
+
+  &-name
     display: flex
     flex-direction: column
     text-align: right
@@ -14,15 +14,13 @@
     font-size: 14px
     font-weight: 500
 
-.host-picture
+  &-picture
     width: 64px
     height: 64px
     border-radius: 50%
     object-fit: cover
 
-@media( max-width: 768px  )
-    .host-picture
-        max-width: 100%
-        max-height: 100%
-        padding: 0
-
+    @media (max-width: 768px)
+      max-width: 100%
+      max-height: 100%
+      padding: 0
