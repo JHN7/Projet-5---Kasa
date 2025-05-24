@@ -5,7 +5,7 @@ import Rating from "../../components/Rating/Rating";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Tag from "../../components/Tag/Tag";
 import Host from "../../components/Host/Host";
-import Error from "../../components/Error/Error";
+import Error from "../Error/Error";
 import "./Logements.sass";
 
 // Page de détail d’un logement, identifiée par son id dans l’URL

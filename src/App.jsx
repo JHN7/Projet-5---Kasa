@@ -1,7 +1,7 @@
 import "./App.sass";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import APropos from "./pages/A-propos/A-Propos";
-import Error from "./components/Error/Error";
+import Error from "./pages/Error/Error";
 import Home from "./pages/Home/Home";
 import Logements from "./pages/Logements/Logements";
 import Header from "./components/Header/Header";
